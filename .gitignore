@@ -1,0 +1,32 @@
+# Python
+backend/.venv/
+backend/**/__pycache__/
+backend/data/*.sqlite3
+backend/data/football-test.webm
+
+# JavaScript and Android build output
+mobile/node_modules/
+mobile/.git/
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/ios/Pods/
+
+# Local configuration and generated files
+.env
+**/.env
+!backend/.env.example
+*.bak
+*.backup
+*.log
+hs_err_pid*.log
+replay_pid*.log
+firesight-source-review.zip
+README.txt
+FireSightTV-Sync-PTS-Fix/
+mobile-source/
+apply-realtime.ps1
+setup-windows.ps1
+test-football-training.webm
+test-football-training-Scenes.csv
+backend/yolo11n.pt
